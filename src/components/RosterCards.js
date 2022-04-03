@@ -13,12 +13,11 @@ const RosterCards = (props) => {
             props.rosterData[0].information.map((artist) => (
               <div
                 className="card text-white bg-dark mb-3"
-                //   style={{
-                //     width: "18rem",
-                //     padding: "5px",
-                //     border: "1px solid red",
-                //     background: "#303030",
-                //   }}
+                style={{
+                  width: "18rem",
+                  padding: "5px",
+                  border: "1px solid red",
+                }}
               >
                 <img src={artist.pfp} className="card-img-top" alt="..." />
                 <div className="card-body">
