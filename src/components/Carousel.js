@@ -42,7 +42,7 @@ const Carousel = () => {
           }}
         >
           <img
-            src={daBabyGif}
+            src="https://i.imgur.com/noC4YXr.gif"
             class="d-block w-100"
             alt="dababy"
             style={{
@@ -58,9 +58,9 @@ const Carousel = () => {
           }}
         >
           <img
-            src={nbaYoungboyGif}
+            src="https://i.imgur.com/NmdSe6l.gif"
             class="d-block w-100"
-            alt="..."
+            alt="youngboy"
             style={{
               objectFit: "contain",
               objectPosition: "center",
@@ -74,9 +74,9 @@ const Carousel = () => {
           }}
         >
           <img
-            src={moneybaggYoGif}
+            src="https://i.imgur.com/d2Iwhnk.gif"
             class="d-block w-100"
-            alt="..."
+            alt="moneybagg"
             style={{
               objectFit: "cover",
               objectPosition: "center",
