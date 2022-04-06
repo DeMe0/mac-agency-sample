@@ -1,22 +1,30 @@
+/* black out the background */
 .App {
   text-align: center;
   background-color: black;
 }
 
-* {
-  border: 1px solid black;
-}
-
+/* custom hover effects for cards */
 #cardz:hover {
   transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 10px 20px rgba(236, 189, 118, 0.6),
+    0 4px 8px rgba(236, 189, 118, 0.12);
 }
 #cardz {
   border-radius: 4px;
   background: #fff;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 8px 10px 13px rgba(236, 189, 118, 0.08),
+    0 0 6px rgba(236, 189, 118, 0.05);
   transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
     0.3s box-shadow,
     0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
   padding: 14px 80px 18px 36px;
+}
+
+/* Prevent links from changing color when clicked */
+a,
+a:hover,
+a:active {
+  color: gray !important;
+  text-decoration: none !important;
 }
