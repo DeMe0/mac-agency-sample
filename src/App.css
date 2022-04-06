@@ -30,6 +30,11 @@ a:active {
   text-decoration: none !important;
 }
 
+/* force nav links to glow when hovering */
+.nav-link:hover {
+  color: white !important;
+}
+
 /* scroll to top button */
 #btn-back-to-top {
   position: fixed;
