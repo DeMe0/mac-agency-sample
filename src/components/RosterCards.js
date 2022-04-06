@@ -11,7 +11,14 @@ const RosterCards = (props) => {
         flexDirection: "column",
       }}
     >
-      <h2 id="artists">Artists</h2>
+      <h2
+        id="artists"
+        style={{
+          margin: "1rem",
+        }}
+      >
+        Artists
+      </h2>
       <div
         class="row"
         style={{
