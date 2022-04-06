@@ -18,13 +18,13 @@ function App() {
 
   return (
     <div className="App">
-      <button
+      {/* <button
         type="button"
         class="btn btn-danger btn-floating btn-lg"
         id="btn-back-to-top"
       >
         <i class="fas fa-arrow-up"></i>
-      </button>
+      </button> */}
       <nav
         className="navbar navbar-expand-xl navbar-dark bg-black"
         aria-label="Sixth navbar example"
