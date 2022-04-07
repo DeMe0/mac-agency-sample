@@ -9,12 +9,15 @@ const RosterCards = (props) => {
       style={{
         display: "flex",
         flexDirection: "column",
+        width: "100%",
+        alignItems: "center",
       }}
     >
       <h2
         id="artists"
         style={{
           margin: "1rem",
+          color: "lightgray",
         }}
       >
         Artists
@@ -23,6 +26,7 @@ const RosterCards = (props) => {
         class="row"
         style={{
           justifyContent: "center",
+          maxWidth: "93%",
         }}
       >
         {props.rosterData[0] &&
@@ -60,7 +64,7 @@ const RosterCards = (props) => {
                 </h5>
               </div>
               <div className="card-body">
-                <a href="#" className="card-link">
+                <a href={artist.tickets} className="card-link">
                   <button
                     type="button"
                     class="btn btn-warning"
