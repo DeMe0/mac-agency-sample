@@ -63,21 +63,9 @@ const RosterCards = (props) => {
                   {artist.name}
                 </h5>
               </div>
-              <div className="card-body">
-                <a href={artist.tickets} className="card-link">
-                  <button
-                    type="button"
-                    class="btn btn-warning"
-                    style={{
-                      color: "white",
-                      textShadow: "1px 2px #303030",
-                      background: "#ECBD76",
-                    }}
-                  >
-                    Tickets
-                  </button>
-                </a>
-              </div>
+              {/* <div className="card-body">
+                <a href={artist.tickets} className="card-link"></a>
+              </div> */}
             </div>
           ))}
       </div>

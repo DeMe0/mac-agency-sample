@@ -1,0 +1,104 @@
+body {
+  background-color: hotpink;
+  font-family: "Montserrat";
+}
+
+#container {
+  width: 1080px;
+  align-items: center;
+  background-color: white;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #dddddd;
+}
+
+#username {
+  padding: 40px;
+}
+
+#follower-count {
+  height: 355px;
+  background-image: url(https://raw.githubusercontent.com/junior-devleague/ig-profile/master/images/Follower-Count.png);
+}
+
+#posts {
+  position: absolute;
+  top: 250px;
+  left: 465px;
+}
+
+#followers {
+  position: absolute;
+  top: 250px;
+  left: 680px;
+}
+
+#following {
+  position: absolute;
+  top: 250px;
+  left: 900px;
+}
+
+#profile-picture {
+  border-radius: 50%;
+  height: 255px;
+  width: 255px;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+#photo-bar {
+  height: 140px;
+  background-image: url(https://raw.githubusercontent.com/junior-devleague/ig-profile/master/images/Photo-Bar.png);
+}
+
+#pictures {
+  max-width: -webkit-fill-available;
+  background-color: #fafafa;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.ig-header {
+  max-width: -webkit-fill-available;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.ig-image {
+  width: 30vw;
+  height: 30vw;
+  display: inline-block;
+  margin: auto;
+  object-fit: cover;
+  object-position: center;
+  padding: 4px 4px 4px 4px;
+}
+
+.ig-image:hover {
+  transform: scale(1.6);
+}
+
+#bottom-bar {
+  height: 135px;
+  background-image: url(https://raw.githubusercontent.com/junior-devleague/ig-profile/master/images/Bottom-Bar.png);
+}
+
+@media screen and (min-width: 1000px) {
+  #pictures {
+    display: flex;
+    flex-direction: column;
+    width: 913px;
+    align-self: center;
+  }
+  .ig-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .ig-row {
+  }
+  .ig-image {
+    max-width: 294px;
+    max-height: 294px;
+  }
+}
