@@ -2,12 +2,15 @@ import React from "react";
 import Carousel from "../components/Carousel";
 import Nav from "../components/Nav";
 import RosterCards from "../components/RosterCards";
+import "./artistsPage.css";
 
 const Home = (props) => {
   return (
     <div>
       <Nav />
-      <Carousel />
+      <div className="carousel-container">
+        <Carousel />
+      </div>
       <RosterCards rosterData={props.rosterData} />
       <div className="container">
         <div className="row" style={{ marginTop: "2em" }}>
